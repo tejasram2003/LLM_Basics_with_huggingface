@@ -25,7 +25,7 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="cuda:0",
 )
 
-# Using the text streamer to stream output one token at a time
+
 ```
 
 ## Define a function to generate inference response
